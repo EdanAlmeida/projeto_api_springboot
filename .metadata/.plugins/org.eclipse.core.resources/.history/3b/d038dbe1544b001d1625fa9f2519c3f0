@@ -1,0 +1,12 @@
+package br.com.criandoapi.projeto.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+@RestController
+public class UsuarioController {
+
+	@GetMapping("/usuarios")
+	public String texto () {
+		return "Edan Caganeira";
+	}
+}
